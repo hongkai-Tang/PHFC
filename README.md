@@ -27,27 +27,27 @@ This repository contains the official implementation of **"Probabilistic Fuzzy H
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    PFHC Framework                            │
+│                    PFHC Framework                           │
 ├─────────────────────────────────────────────────────────────┤
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │  Spatial Directed Fuzzy Hypergraph Convolution       │  │
-│  │  • V→E: Node-to-Hyperedge Aggregation               │  │
-│  │  • E→E: Hyperedge-to-Hyperedge Interference         │  │
-│  │  • Fuzzification Layer                               │  │
-│  └──────────────────────────────────────────────────────┘  │
-│                           ↓                                  │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │  Conditional Causal Fuzzy Convolution                │  │
-│  │  • Volatility-Aware Receptive Field                  │  │
-│  │  • Dynamic Conditional Kernel Generation             │  │
-│  │  • Gated Temporal Feature Extraction                 │  │
-│  └──────────────────────────────────────────────────────┘  │
-│                           ↓                                  │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │  Probabilistic-Fuzzy Relation Fusion                 │  │
-│  │  • Intuitionistic Fuzzy Relation Matrix              │  │
-│  │  • Temperature-Scaled Softmax Prediction             │  │
-│  └──────────────────────────────────────────────────────┘  │
+│  ┌──────────────────────────────────────────────────────┐   │
+│  │  Spatial Directed Fuzzy Hypergraph Convolution       │   │
+│  │  • V→E: Node-to-Hyperedge Aggregation                │   │
+│  │  • E→E: Hyperedge-to-Hyperedge Interference          │   │
+│  │  • Fuzzification Layer                               │   │
+│  └──────────────────────────────────────────────────────┘   │
+│                           ↓                                 │
+│  ┌──────────────────────────────────────────────────────┐   │
+│  │  Conditional Causal Fuzzy Convolution                │   │
+│  │  • Volatility-Aware Receptive Field                  │   │
+│  │  • Dynamic Conditional Kernel Generation             │   │
+│  │  • Gated Temporal Feature Extraction                 │   │
+│  └──────────────────────────────────────────────────────┘   │
+│                           ↓                                 │
+│  ┌──────────────────────────────────────────────────────┐   │
+│  │  Probabilistic-Fuzzy Relation Fusion                 │   │
+│  │  • Intuitionistic Fuzzy Relation Matrix              │   │
+│  │  • Temperature-Scaled Softmax Prediction             │   │
+│  └──────────────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────────────┘
 ```
 
